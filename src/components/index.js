@@ -1,10 +1,10 @@
-import Article from "./article";
+import Article from "./Article";
 import CollagePhoto from "./CollagePhoto";
 import Footer from "./Footer";
-import Hero from "./hero";
+import Hero from "./Hero";
 import NavBar from "./NavBar";
-import Testimonials from "./testimonials";
-import Pricing from "./pricing";
+import Testimonials from "./Testimonials";
+import Pricing from "./Pricing";
 
 export {
     Article,
