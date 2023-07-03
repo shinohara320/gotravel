@@ -1,0 +1,17 @@
+#root {
+  --max-width: 1280px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+@media screen and (max-width: 768px) {
+  :root {
+    --max-width: 100%; /* Nilai max-width untuk layar dengan lebar maksimum 768px */
+  }
+}
+
+@media screen and (min-width: 1480px) {
+  :root {
+    --max-width: 1480px; /* Nilai max-width untuk layar dengan lebar minimum 1480px */
+  }
+}
