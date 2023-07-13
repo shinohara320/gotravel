@@ -5,6 +5,8 @@ import Hero from "./Hero";
 import NavBar from "./NavBar";
 import Testimonials from "./Testimonials";
 import Pricing from "./Pricing";
+import LoginInput from "./LoginInput";
+import MainDashboard from "./MainDashboard";
 
 export {
     Article,
@@ -14,4 +16,6 @@ export {
     NavBar,
     Testimonials,
     Pricing,
+    LoginInput,
+    MainDashboard,
 };
