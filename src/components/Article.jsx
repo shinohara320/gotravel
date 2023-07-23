@@ -24,8 +24,8 @@ const Article = () => {
       <section className="py-6 sm:py-12 dark:bg-gray-800 dark:text-gray-100">
         <div className="container p-6 mx-auto space-y-8">
           <div className="space-y-2 text-center">
-            <h2 className="text-3xl font-bold">#JogjaUpdate</h2>
-            <p className="font-serif text-sm dark:text-gray-400">ikuti perkembangan berita seputar jogja</p>
+            <h2 className="text-3xl font-bold">Kabar Seloromo</h2>
+            <p className="font-serif text-sm dark:text-gray-400">ikuti perkembangan berita seputar Desa Seloromo</p>
           </div>
           {isLoading ? (
             <div>Loading article...</div>

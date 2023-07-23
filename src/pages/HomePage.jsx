@@ -1,15 +1,15 @@
 import React from 'react'
-import { Article, CollagePhoto, Footer, Hero, NavBar, Pricing, Testimonials } from '../components'
+import { KknPage, Statistic, Article, CollagePhoto, Footer, NavBar, Team } from '../components'
 
 const HomePage = () => {
   return (
     <div>
       <NavBar />
-      <Hero />
+      <Statistic />
+      <KknPage />
       <Article />
       <CollagePhoto />
-      <Pricing />
-      <Testimonials />
+      <Team />
       <Footer />
     </div>
   )
